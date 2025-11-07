@@ -20,10 +20,7 @@ const About = () => {
           
           <div className="glass-card rounded-2xl p-8 md:p-12">
             <p className="text-lg md:text-xl text-foreground/90 leading-relaxed">
-              Full-stack developer passionate about building scalable, end-to-end solutions 
-              integrated with AI and ML models. Skilled in designing systems that blend 
-              intelligent automation with seamless user experiences. I thrive on solving 
-              complex problems and creating software that makes a real impact.
+              Seeking a challenging and innovative position in software or web development that utilizes my education and helps me grow technically while contributing to an organization's success. Passionate about secure web applications, problem-solving, and learning modern technologies.
             </p>
           </div>
         </motion.div>

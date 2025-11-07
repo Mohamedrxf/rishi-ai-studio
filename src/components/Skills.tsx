@@ -7,27 +7,27 @@ const skillCategories = [
   {
     title: "Programming Languages",
     icon: Code2,
-    skills: ["Python", "C", "C++", "Java", "SQL", "JavaScript"],
+    skills: ["Python", "C++", "C", "Java", "JavaScript", "SQL", "Flask"],
   },
   {
     title: "Frameworks & Libraries",
     icon: Layers,
-    skills: ["React.js", "Node.js", "Flask", "TensorFlow", "Scikit-Learn"],
+    skills: ["ReactJS", "Node.js"],
   },
   {
     title: "Tools & Platforms",
     icon: Wrench,
-    skills: ["Git", "GitHub", "Figma", "Google Colab", "Postman"],
-  },
-  {
-    title: "Databases",
-    icon: Database,
-    skills: ["MySQL", "MongoDB", "PostgreSQL"],
+    skills: ["Google Colab", "Git", "GitHub", "Postman"],
   },
   {
     title: "Soft Skills",
     icon: Users,
-    skills: ["Technical Storytelling", "Learning Agility", "Innovation Ownership"],
+    skills: ["Leadership", "Team Building", "Communication", "Time Management"],
+  },
+  {
+    title: "Languages",
+    icon: Users,
+    skills: ["English", "Tamil", "Telugu", "Hindi"],
   },
 ];
 
@@ -56,7 +56,7 @@ const Skills = () => {
                   initial={{ opacity: 0, y: 20 }}
                   animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                   transition={{ duration: 0.6, delay: index * 0.1 }}
-                  className="glass-card rounded-xl p-6 hover:border-primary/50 transition-all duration-300 hover:glow-cyan"
+                  className="glass-card rounded-xl p-6 hover:border-primary/50 transition-all duration-300 hover:glow-purple"
                 >
                   <div className="flex items-center gap-3 mb-4">
                     <div className="p-2 bg-gradient-primary rounded-lg">

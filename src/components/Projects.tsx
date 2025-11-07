@@ -5,28 +5,44 @@ import { ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    title: "Telemedicine Access Platform for Rural Healthcare",
-    event: "Smart India Hackathon 2025",
+    title: "ShelfScape",
+    event: "Personal Project",
     description:
-      "Developed a multilingual telemedicine app enabling video consultations and offline health records (IndexedDB + PWA). Built a hybrid USSD + IVR emergency support system for feature phones, increasing healthcare access by 40%.",
-    tech: ["React.js", "Vite", "TypeScript", "Tailwind CSS", "Supabase", "Flask", "TensorFlow"],
-    impact: "40% increase in healthcare access",
+      "Built a virtual reading platform for tracking and discovering books, motivating users to read more. Features include book tracking, reading goals, personalized recommendations, and community engagement.",
+    tech: ["ReactJS", "Node.js", "MongoDB", "CSS"],
+    impact: "Enhanced reading habits",
   },
   {
-    title: "AI-Powered Symptom Analysis and Disease Prediction System",
+    title: "WhatsApp Message Automation (Geo-location Based)",
+    event: "Automation Project",
+    description:
+      "Developed a system that automates personalized WhatsApp messages based on user location for timely engagement. Integrated geolocation APIs for real-time tracking and message triggering.",
+    tech: ["Python", "Flask", "Twilio API", "Geolocation API"],
+    impact: "Improved user engagement",
+  },
+  {
+    title: "AI-based Recipe Recommendation System",
     event: "Machine Learning Project",
     description:
-      "Created a synthetic dataset generator for patient symptom–disease records using Keras and CSV pipelines. Developed a multi-label ML model with scikit-learn and Pandas to predict diseases with 95% accuracy.",
-    tech: ["Python", "TensorFlow", "Keras", "Scikit-Learn", "Pandas", "NumPy"],
-    impact: "95% prediction accuracy",
+      "Built an AI web app suggesting recipes based on available ingredients, personalizing user cooking experiences. Implemented NLP for ingredient parsing and collaborative filtering for recommendations.",
+    tech: ["Python", "Flask", "TensorFlow", "ReactJS"],
+    impact: "Personalized cooking experience",
+  },
+  {
+    title: "Student Mark Prediction System",
+    event: "Data Science Project",
+    description:
+      "Implemented an ML model predicting student marks using data from daily routines for performance analysis and personalized recommendations. Used regression models and feature engineering.",
+    tech: ["Python", "Scikit-Learn", "Pandas", "NumPy"],
+    impact: "Accurate performance prediction",
   },
   {
     title: "Problem Solving Achievements",
     event: "Competitive Programming",
     description:
-      "Solved 250+ LeetCode problems focusing on algorithms and data structures. Completed 50+ HackerRank problems in Python & C++. Solved 400+ CodeChef problems focusing on fundamentals.",
+      "Solved 350+ LeetCode problems and 50+ HackerRank problems focusing on algorithms and data structures. Passionate about optimizing solutions for performance and readability.",
     tech: ["Python", "C++", "Java", "Algorithms", "Data Structures"],
-    impact: "700+ problems solved",
+    impact: "400+ problems solved",
   },
 ];
 
@@ -53,7 +69,7 @@ const Projects = () => {
                 initial={{ opacity: 0, x: index % 2 === 0 ? -20 : 20 }}
                 animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: index % 2 === 0 ? -20 : 20 }}
                 transition={{ duration: 0.6, delay: index * 0.2 }}
-                className="glass-card rounded-2xl p-6 md:p-8 hover:border-primary/50 transition-all duration-300 group hover:glow-cyan"
+                className="glass-card rounded-2xl p-6 md:p-8 hover:border-primary/50 transition-all duration-300 group hover:glow-purple"
               >
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-4">
                   <div>

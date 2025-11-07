@@ -8,19 +8,19 @@ const education = [
     degree: "B.E. Computer Science and Engineering",
     institution: "SRM Easwari Engineering College",
     year: "Expected May 2027",
-    grade: "CGPA: 8.5",
+    grade: "CGPA: 9.25",
   },
   {
     degree: "Higher Secondary Certificate (HSC)",
     institution: "High School",
     year: "2023",
-    grade: "85%",
+    grade: "94%",
   },
   {
     degree: "Secondary School Leaving Certificate (SSLC)",
     institution: "Secondary School",
     year: "2021",
-    grade: "94%",
+    grade: "95%",
   },
 ];
 
@@ -54,7 +54,7 @@ const Education = () => {
                   className="relative pl-20"
                 >
                   {/* Timeline dot */}
-                  <div className="absolute left-5 top-6 w-6 h-6 bg-gradient-primary rounded-full border-4 border-background glow-cyan" />
+                  <div className="absolute left-5 top-6 w-6 h-6 bg-gradient-primary rounded-full border-4 border-background glow-purple" />
 
                   <div className="glass-card rounded-xl p-6 hover:border-primary/50 transition-all duration-300">
                     <div className="flex items-start gap-4">

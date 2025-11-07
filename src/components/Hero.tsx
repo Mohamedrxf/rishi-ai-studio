@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "./ui/button";
-import { Github, Linkedin, Mail, Download } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -24,9 +24,9 @@ const Hero = () => {
             transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
             className="mb-8"
           >
-            <div className="w-32 h-32 mx-auto rounded-full bg-gradient-primary p-1 glow-cyan">
+            <div className="w-32 h-32 mx-auto rounded-full bg-gradient-primary p-1 glow-purple">
               <div className="w-full h-full rounded-full bg-background flex items-center justify-center text-5xl font-bold gradient-text">
-                RS
+                KS
               </div>
             </div>
           </motion.div>
@@ -37,7 +37,7 @@ const Hero = () => {
             transition={{ delay: 0.4 }}
             className="text-5xl md:text-7xl font-bold mb-4 gradient-text"
           >
-            RISHI SAI VIJAY SAI
+            KEERTHANA SHREE VENUGOPAL
           </motion.h1>
 
           <motion.p
@@ -46,7 +46,7 @@ const Hero = () => {
             transition={{ delay: 0.6 }}
             className="text-xl md:text-2xl text-muted-foreground mb-6"
           >
-            Full Stack Developer | AI & ML Engineer
+            Full Stack Developer | Cybersecurity Enthusiast
           </motion.p>
 
           <motion.p
@@ -55,7 +55,7 @@ const Hero = () => {
             transition={{ delay: 0.8 }}
             className="text-lg md:text-xl text-foreground/80 max-w-2xl mx-auto mb-8"
           >
-            "Building scalable, intelligent, and impactful software solutions."
+            "Turning ideas into secure, elegant, and intelligent digital solutions."
           </motion.p>
 
           <motion.div
@@ -65,13 +65,13 @@ const Hero = () => {
             className="flex flex-wrap gap-4 justify-center items-center"
           >
             <Button size="lg" className="bg-gradient-primary hover:opacity-90 transition-opacity">
-              <Download className="mr-2 h-5 w-5" />
-              Download Resume
+              <a href="#projects" className="flex items-center">
+                View Projects
+              </a>
             </Button>
             <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
               <a href="#contact" className="flex items-center">
-                <Mail className="mr-2 h-5 w-5" />
-                Get in Touch
+                Hire Me
               </a>
             </Button>
           </motion.div>
@@ -99,7 +99,7 @@ const Hero = () => {
               <Linkedin className="h-6 w-6" />
             </a>
             <a
-              href="mailto:rishisai23@gmail.com"
+              href="mailto:keerthanashreevenugopal@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               <Mail className="h-6 w-6" />

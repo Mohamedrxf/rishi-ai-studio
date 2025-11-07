@@ -17,16 +17,16 @@ All colors MUST be HSL.
     --popover: 240 8% 8%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 189 100% 50%;
+    --primary: 265 100% 65%;
     --primary-foreground: 240 10% 3.9%;
 
-    --secondary: 270 70% 65%;
+    --secondary: 320 85% 70%;
     --secondary-foreground: 240 10% 3.9%;
 
     --muted: 240 8% 15%;
     --muted-foreground: 240 5% 64.9%;
 
-    --accent: 270 70% 65%;
+    --accent: 200 100% 60%;
     --accent-foreground: 240 10% 3.9%;
 
     --destructive: 0 84.2% 60.2%;
@@ -34,14 +34,14 @@ All colors MUST be HSL.
 
     --border: 240 8% 15%;
     --input: 240 8% 15%;
-    --ring: 189 100% 50%;
+    --ring: 265 100% 65%;
 
     --radius: 0.75rem;
 
-    --gradient-primary: linear-gradient(135deg, hsl(189 100% 50%), hsl(270 70% 65%));
+    --gradient-primary: linear-gradient(135deg, hsl(265 100% 65%), hsl(320 85% 70%));
     --gradient-card: linear-gradient(135deg, hsl(240 8% 8% / 0.6), hsl(240 8% 12% / 0.4));
-    --glow-cyan: 0 0 40px hsl(189 100% 50% / 0.3);
-    --glow-violet: 0 0 40px hsl(270 70% 65% / 0.3);
+    --glow-purple: 0 0 40px hsl(265 100% 65% / 0.4);
+    --glow-pink: 0 0 40px hsl(320 85% 70% / 0.3);
   }
 }
 
@@ -68,11 +68,11 @@ All colors MUST be HSL.
     @apply backdrop-blur-md bg-card/60 border border-border/50;
   }
 
-  .glow-cyan {
-    box-shadow: var(--glow-cyan);
+  .glow-purple {
+    box-shadow: var(--glow-purple);
   }
 
-  .glow-violet {
-    box-shadow: var(--glow-violet);
+  .glow-pink {
+    box-shadow: var(--glow-pink);
   }
 }

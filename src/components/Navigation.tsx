@@ -8,7 +8,9 @@ const navItems = [
   { name: "About", href: "#about" },
   { name: "Skills", href: "#skills" },
   { name: "Projects", href: "#projects" },
+  { name: "Internships", href: "#internships" },
   { name: "Achievements", href: "#achievements" },
+  { name: "Clubs", href: "#clubs" },
   { name: "Education", href: "#education" },
   { name: "Contact", href: "#contact" },
 ];
@@ -37,7 +39,7 @@ const Navigation = () => {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             <a href="#home" className="text-2xl font-bold gradient-text">
-              RSV
+              KSV
             </a>
 
             {/* Desktop Navigation */}

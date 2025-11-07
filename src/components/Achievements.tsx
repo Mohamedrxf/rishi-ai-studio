@@ -6,32 +6,19 @@ import { Trophy, Award, Target } from "lucide-react";
 const achievements = [
   {
     icon: Trophy,
-    title: "GeoNova Hackathon – HealthTech",
-    level: "National Level",
-    description: "1st Prize for developing an AI-driven healthcare platform solving patient-care challenges.",
-    color: "text-primary",
-  },
-  {
-    icon: Award,
-    title: "Hack-4-Mini 2.0 – Machine Learning",
-    level: "National Level",
-    description: "Built ML-based predictive model for genetic disease identification. Solo team from Tamil Nadu, secured 3rd place in HealthTech domain.",
-    color: "text-secondary",
-  },
-  {
-    icon: Target,
-    title: "Smart India Hackathon 2025",
-    level: "National Level",
-    description: "Selected among top 45 teams nationwide for telemedicine innovation for rural India.",
+    title: "2nd Place – Ethical Hacking CTF Hackathon",
+    level: "Supraja Technologies",
+    description: "Recognized for outstanding problem-solving and cybersecurity awareness in a competitive Capture The Flag event.",
     color: "text-primary",
   },
 ];
 
 const certifications = [
+  "HTML & CSS Basics – Udemy",
   "C++ Programming – Infosys Springboard",
   "Microsoft Gen AI – Microsoft",
-  "Python Essentials I & II – Cisco Networking Academy",
-  "CCNA Level I & II – Cisco Networking Academy",
+  "Python Essentials – Cisco Networking Academy",
+  "Introduction to Cybersecurity – Cisco Networking Academy",
 ];
 
 const Achievements = () => {
@@ -50,7 +37,7 @@ const Achievements = () => {
             Achievements & Recognition
           </h2>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+          <div className="grid grid-cols-1 gap-8 mb-12">
             {achievements.map((achievement, index) => {
               const Icon = achievement.icon;
               return (
@@ -59,7 +46,7 @@ const Achievements = () => {
                   initial={{ opacity: 0, y: 20 }}
                   animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                   transition={{ duration: 0.6, delay: index * 0.1 }}
-                  className="glass-card rounded-xl p-6 hover:border-primary/50 transition-all duration-300 hover:glow-cyan"
+                  className="glass-card rounded-xl p-6 hover:border-primary/50 transition-all duration-300 hover:glow-purple"
                 >
                   <div className="flex items-start gap-4">
                     <div className={`p-3 bg-gradient-primary rounded-lg ${achievement.color}`}>
